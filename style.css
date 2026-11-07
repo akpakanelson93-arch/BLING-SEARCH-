@@ -176,3 +176,52 @@ footer {
     font-size: 10px;
   }
 }
+.results {
+  width: 100%;
+  max-width: 650px;
+  margin: 35px auto;
+  text-align: left;
+}
+
+.welcome {
+  text-align: center;
+  color: #999;
+  font-size: 14px;
+  padding: 20px;
+}
+
+.result-item {
+  padding: 18px 5px;
+  border-bottom: 1px solid #eee;
+}
+
+.result-item a {
+  color: #2878ff;
+  font-size: 19px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.result-item a:hover {
+  text-decoration: underline;
+}
+
+.result-item p {
+  color: #555;
+  font-size: 14px;
+  line-height: 1.6;
+  margin-top: 7px;
+}
+
+.result-item .source {
+  color: #888;
+  font-size: 12px;
+  margin-bottom: 6px;
+}
+
+.loading,
+.error {
+  text-align: center;
+  padding: 25px;
+  color: #777;
+}
